@@ -32,6 +32,7 @@ if node['platform_family'] == 'debian'
 
   package 'memcached' do
     version node['memcached']['version']
+    options node['memcached']['options']
     action :install
   end
 
