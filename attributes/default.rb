@@ -18,6 +18,7 @@
 #
 
 default['memcached']['version'] = nil
+default['memcached']['options'] = '--force-yes'
 default['memcached']['memory'] = 64
 default['memcached']['port'] = 11_211
 default['memcached']['udp_port'] = 11_211
